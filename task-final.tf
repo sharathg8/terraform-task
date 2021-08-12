@@ -82,9 +82,8 @@ resource "azurerm_virtual_machine_extension" "example" {
   type                 = "CustomScript"
   type_handler_version = "2.0"
   settings             = <<SETTINGS
-    { 
-      "fileUris": ["https://gist.githubusercontent.com/saivinay98/b0941ff905d06b1ee25e3504175a8a49/raw/56fef7c9967ad765207121f1aabe9391a0945697/script.sh"],
-      "commandToExecute": "bash script.sh"
+    {
+      "script": "${filebase64("script.sh")}"
     }
   SETTINGS
   tags = {
