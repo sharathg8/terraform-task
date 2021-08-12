@@ -1,9 +1,9 @@
 provider "azurerm" {
   version = "= 2.0.0"
-  subscription_id = "d5d8e244-a4c5-4a23-a8be-93531698fa7f"
-  client_id       = "6a015043-f5fa-4d83-8d47-3fa111aacde1"
-  client_secret   = "-s145H1oiWuc.Rt.pHu~-tXW~7IYr2TPxs"
-  tenant_id       = "8508c604-380a-4dc2-adc8-40bfc89da4fd"
+  subscription_id = "0P.kNxK~LcbPRp1Cr1wygH2~817-2gsdE-"
+  client_id       = "c3b27053-bb8e-476a-8e16-02c384f70f0f"
+  client_secret   = "0P.kNxK~LcbPRp1Cr1wygH2~817-2gsdE-"
+  tenant_id       = "9c38b331-79da-43e2-8bf3-8a7c7b94f27f"
   features {}
 }
 variable "prefix" {
